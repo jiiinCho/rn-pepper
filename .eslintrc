@@ -1,0 +1,42 @@
+{
+  "extends": ["@callstack", "plugin:import/typescript"],
+  "plugins": ["eslint-plugin-local-rules"],
+  "settings": {
+    "import/resolver": {
+      "typescript": true,
+      "node": true
+    }
+  },
+  "rules": {
+    "local-rules/no-import-react-forwardref": "error",
+    "local-rules/no-react-forwardref-usage": "error",
+
+    "global-require": "off",
+
+    // Missing yarn workspace support
+    "import/no-extraneous-dependencies": "off",
+    "import/order": [
+      "error",
+      {
+        "groups": [["external", "builtin"], "internal", ["sibling", "parent"], "index"],
+        "pathGroups": [
+          {
+            "pattern": "@(react|react-native)",
+            "group": "external",
+            "position": "before"
+          },
+          {
+            "pattern": "@src/**",
+            "group": "internal"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": ["internal", "react"],
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ]
+  }
+}
