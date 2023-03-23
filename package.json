@@ -1,5 +1,5 @@
 {
-  "name": "react-native-pepper",
+  "name": "rn-pepper",
   "version": "1.0.0",
   "description": "Clone project for react-native paper",
   "main": "lib/commonjs/index.js",
@@ -26,6 +26,10 @@
     "prepare": "bob build && node ./scripts/generate-mappings.js"
   },
   "author": "jiiin✨",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiiinCho/rn-pepper"
+  },
   "license": "ISC",
   "dependencies": {
     "@callstack/react-theme-provider": "^3.0.8",
