@@ -9,6 +9,7 @@
   "types": "lib/typescript/index.d.ts",
   "files": [
     "src",
+    "!src/__tests__",
     "lib",
     "react-navigation",
     "babel.js"
