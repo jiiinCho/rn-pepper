@@ -1,10 +1,10 @@
 import type * as React from 'react';
 import { Animated, Platform, StyleProp, StyleSheet, View, ViewStyle } from 'react-native';
 
-import { useInternalTheme } from 'core';
-import { isAnimatedValue, overlay, shadow } from 'styles';
-import type { ThemeProp, MD3EelevationColors } from 'types';
-import { forwardRef } from 'utils';
+import { useInternalTheme } from 'src/core';
+import { isAnimatedValue, overlay, shadow } from 'src/styles';
+import type { ThemeProp, MD3EelevationColors } from 'src/types';
+import { forwardRef } from 'src/utils';
 
 type Props = React.ComponentPropsWithRef<typeof View> & {
   children: React.ReactNode;

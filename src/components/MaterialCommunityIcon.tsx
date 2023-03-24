@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Text, StyleSheet, ViewProps, View } from 'react-native';
 
-import { MD3Colors } from 'styles';
+import { MD3Colors } from 'src/styles';
 
 // NOTE: not support for web
 // TODO: Investigate more

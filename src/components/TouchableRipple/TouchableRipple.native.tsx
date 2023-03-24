@@ -9,8 +9,8 @@ import {
   StyleSheet,
 } from 'react-native';
 
-import { useInternalTheme } from 'core';
-import type { InternalTheme } from 'types';
+import { useInternalTheme } from 'src/core';
+import type { InternalTheme } from 'src/types';
 
 import { getTouchableRippleColors } from './utils';
 

@@ -1,7 +1,7 @@
 import color from 'color';
 
-import { MD3Colors } from 'styles';
-import type { InternalTheme } from 'types';
+import { MD3Colors } from 'src/styles';
+import type { InternalTheme } from 'src/types';
 
 export type ButtonMode = 'text' | 'outlined' | 'contained' | 'elevated' | 'contained-tonal';
 

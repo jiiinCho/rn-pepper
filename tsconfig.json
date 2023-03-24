@@ -2,12 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "react-native-papper": ["src/index"],
-      "components": ["src/components"],
-      "core": ["src/core"],
-      "styles": ["src/styles"],
-      "types": ["src/types"],
-      "utils": ["src/utils"]
+      "rn-pepper": ["src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

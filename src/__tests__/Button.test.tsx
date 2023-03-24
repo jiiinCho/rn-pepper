@@ -3,7 +3,7 @@ import * as React from 'react';
 
 import renderer from 'react-test-renderer';
 
-import { Button } from 'components';
+import { Button } from 'src/components';
 
 // const styles = StyleSheet.create({
 //   flexing: {

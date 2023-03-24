@@ -1,6 +1,6 @@
 import color from 'color';
 
-import type { InternalTheme } from 'types';
+import type { InternalTheme } from 'src/types';
 
 export const getTouchableRippleColors = ({
   theme,

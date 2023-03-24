@@ -1,7 +1,7 @@
 import color from 'color';
 
-import { configureFonts } from 'styles';
-import type { MD2Theme, Fonts } from 'types';
+import { configureFonts } from 'src/styles';
+import type { MD2Theme, Fonts } from 'src/types';
 
 import { white, black, pinkA400 } from './colors';
 

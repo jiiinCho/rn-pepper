@@ -8,8 +8,8 @@ import {
   StyleSheet,
 } from 'react-native';
 
-import { useInternalTheme } from 'core';
-import type { ThemeProp } from 'types';
+import { useInternalTheme } from 'src/core';
+import type { ThemeProp } from 'src/types';
 
 import { getTouchableRippleColors } from './utils';
 

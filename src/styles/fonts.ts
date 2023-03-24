@@ -1,6 +1,6 @@
 import { Platform, PlatformOSType } from 'react-native';
 
-import type { Fonts, MD3TypescaleKey, MD3Type, MD3Typescale } from 'types';
+import type { Fonts, MD3TypescaleKey, MD3Type, MD3Typescale } from 'src/types';
 
 import { fontConfig } from './themes/v2/tokens';
 import { typescale } from './themes/v3/tokens';

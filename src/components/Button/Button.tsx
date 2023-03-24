@@ -11,9 +11,9 @@ import {
 
 import color from 'color';
 
-import { Surface, IconSource, ActivityIndicator } from 'components';
-import { useInternalTheme } from 'core';
-import type { ThemeProp } from 'types';
+import { Surface, IconSource, ActivityIndicator } from 'src/components';
+import { useInternalTheme } from 'src/core';
+import type { ThemeProp } from 'src/types';
 
 import { ButtonMode, getButtonColors } from './utils';
 import Icon from '../Icon';
