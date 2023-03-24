@@ -1,3 +1,3 @@
-import type { MD3TypescaleKey } from 'src/types';
+import type { MD3TypescaleKey } from '../../types';
 
 export type VariantProp = keyof typeof MD3TypescaleKey;

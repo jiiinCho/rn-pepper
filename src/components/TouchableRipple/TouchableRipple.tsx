@@ -8,10 +8,9 @@ import {
   StyleSheet,
 } from 'react-native';
 
-import { useInternalTheme } from 'src/core';
-import type { ThemeProp } from 'src/types';
-
 import { getTouchableRippleColors } from './utils';
+import { useInternalTheme } from '../../core';
+import type { ThemeProp } from '../../types';
 
 type Props = React.ComponentPropsWithRef<typeof Pressable> & {
   // Whether to render the ripple outside the view bounds

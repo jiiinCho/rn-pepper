@@ -25,8 +25,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import {Provider as PaperProvider} from 'react-native-paper';
-import {Button} from 'rn-pepper';
+import {Button, Provider} from 'rn-pepper';
 type SectionProps = PropsWithChildren<{
   title: string;
 }>;

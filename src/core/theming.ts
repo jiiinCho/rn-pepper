@@ -1,7 +1,7 @@
 import { $DeepPartial, createTheming } from '@callstack/react-theme-provider';
 
-import { MD3LightTheme, MD3DarkTheme } from 'src/styles';
-import type { InternalTheme } from 'src/types';
+import { MD3LightTheme, MD3DarkTheme } from '../styles';
+import type { InternalTheme } from '../types';
 
 export const { ThemeProvider, useTheme: useAppTheme } = createTheming<unknown>(MD3LightTheme);
 

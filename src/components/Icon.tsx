@@ -1,10 +1,9 @@
 import * as React from 'react';
 import { I18nManager, Platform, ImageSourcePropType, Image } from 'react-native';
 
-import { useInternalTheme, Consumer as SettingsConsumer } from 'src/core';
-import type { ThemeProp } from 'src/types';
-
 import { accessibilityProps } from './MaterialCommunityIcon';
+import { useInternalTheme, Consumer as SettingsConsumer } from '../core';
+import type { ThemeProp } from '../types';
 
 type IconSourceBase = string | ImageSourcePropType;
 

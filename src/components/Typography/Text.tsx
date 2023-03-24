@@ -1,11 +1,10 @@
 import React from 'react';
 import { I18nManager, StyleProp, StyleSheet, Text as NativeText, TextStyle } from 'react-native';
 
-import { useInternalTheme } from 'src/core';
-import type { ThemeProp } from 'src/types';
-import { forwardRef } from 'src/utils';
-
 import type { VariantProp } from './types';
+import { useInternalTheme } from '../../core';
+import type { ThemeProp } from '../../types';
+import { forwardRef } from '../../utils';
 
 type Props = React.ComponentProps<typeof NativeText> & {
   /**

@@ -6,17 +6,16 @@ import {
   NativeEventSubscription,
 } from 'react-native';
 
+import MaterialCommunityIcon from '../components/MaterialCommunityIcon';
 import {
   SettingsProvider,
   Settings,
   defaultThemesByVersion,
   SafeAreaProviderCompat,
   ThemeProvider,
-} from 'src/core';
-import type { ThemeProp } from 'src/types';
-import { addEventListener } from 'src/utils';
-
-import MaterialCommunityIcon from '../components/MaterialCommunityIcon';
+} from '../core';
+import type { ThemeProp } from '../types';
+import { addEventListener } from '../utils';
 
 type Props = {
   children: React.ReactNode;

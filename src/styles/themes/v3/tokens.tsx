@@ -1,6 +1,6 @@
 import { Platform } from 'react-native';
 
-import type { Font, MD3Typescale } from 'src/types';
+import type { Font, MD3Typescale } from '../../../types';
 
 const ref = {
   palette: {

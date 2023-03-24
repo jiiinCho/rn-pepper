@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { Animated, Easing, StyleProp, StyleSheet, View, ViewStyle } from 'react-native';
 
-import { useInternalTheme } from 'src/core';
-import type { ThemeProp } from 'src/types';
+import { useInternalTheme } from '../core';
+import type { ThemeProp } from '../types';
 
 const DURATION = 2400;
 
