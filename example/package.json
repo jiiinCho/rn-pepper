@@ -14,7 +14,7 @@
     "react-native": "0.71.4",
     "react-native-paper": "^5.5.0",
     "react-native-safe-area-context": "^4.5.0",
-    "rn-pepper": "latest"
+    "rn-pepper": "^1.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

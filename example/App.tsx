@@ -25,7 +25,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import {Button, Provider} from 'rn-pepper';
+import {Button, Provider as PaperProvider} from 'rn-pepper';
 type SectionProps = PropsWithChildren<{
   title: string;
 }>;
@@ -74,7 +74,7 @@ function App(): JSX.Element {
           contentInsetAdjustmentBehavior="automatic"
           style={backgroundStyle}>
           <Header />
-          <Button>Hello World</Button>
+          <Button label="hello world" />
           <View
             style={{
               backgroundColor: isDarkMode ? Colors.black : Colors.white,
