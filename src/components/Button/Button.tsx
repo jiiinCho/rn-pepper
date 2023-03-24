@@ -11,14 +11,12 @@ import {
 
 import color from 'color';
 
-import { Surface, IconSource, ActivityIndicator } from 'src/components';
+import { Surface, Icon, IconSource, ActivityIndicator, Text } from 'src/components';
 import { useInternalTheme } from 'src/core';
 import type { ThemeProp } from 'src/types';
 
 import { ButtonMode, getButtonColors } from './utils';
-import Icon from '../Icon';
 import TouchableRipple from '../TouchableRipple/TouchableRipple';
-import Text from '../Typography/Text';
 
 type Props = Omit<React.ComponentProps<typeof Surface>, 'children'> & {
   /**
